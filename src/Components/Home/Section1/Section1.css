@@ -1,0 +1,92 @@
+.main-section {
+    width: 100%;
+    height: 100vh;
+    background-image: url('../../../Images/team.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: ease-in-out 0.3s;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.color-hover {
+    width: 100%;
+    height: 100%;
+    background-color: #1a1a1a79;
+    transition: ease-in-out 0.3s;
+}
+
+.color-hover .title-text {
+    padding: 15px;
+    position: absolute;
+    top: 46%;
+    right: 10%;
+    width: 490px;
+    transition: ease-in-out 0.3s;
+}
+
+.color-hover .title {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 37.5px;
+    transition: ease-in-out 0.3s;
+}
+
+.oreder-btn {
+    padding:10px 30px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 18px;
+    text-decoration: none;
+    margin-top: 5%;
+    display: inline-block;
+    border: 1px solid #00ca9d;
+    background-color: #00ca9d;
+    transition: ease-in-out 0.3s;
+
+}
+
+.oreder-btn:hover {
+    background: #28282815;
+    transition: ease-in-out 0.3s;
+}
+
+.phone-img {
+    width: 335px;
+    height: 500px;
+    position: absolute;
+    right: 60%;
+    top: 40%;
+    background-image: url('https://hexacit.com/images/mobail-slide.png');
+    background-size: cover;
+    animation: 1s ease-in slideFromRight;
+}
+
+
+@keyframes slideFromRight {
+    from {
+        right: 50%;
+    }
+    to {
+        right: 60%;
+    }
+}
+@media screen and (min-width:100px) and (max-width:992px) {
+    .main-section {
+        background: none;
+        background-color: #555555;
+        transition: ease-in-out 0.3s;
+    }
+    .color-hover .title-text {
+        display: block;
+        margin: auto;
+        margin: 0;
+        width: 80%;
+        text-align: center;
+        transition: ease-in-out 0.3s;
+    }
+    .phone-img {
+        display: none;
+    }
+}

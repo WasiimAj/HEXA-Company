@@ -1,0 +1,140 @@
+.blog {
+    width: 70%;
+    height: auto;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 70%;
+    display: flex;
+}
+
+.blog-content {
+    width: 70%;
+    height: 700px;
+}
+
+.new-content {
+    width: 30%;
+    height: 700px;
+}
+
+.bolger {
+    width: 46%;
+    height: auto;
+    display: inline-block;
+    margin: 2%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.bolger img {
+    width: 100%;
+    transition: .4s ease-in-out;
+}
+
+.bolger img:hover {
+    margin: 5%;
+    width: 90%;
+    transition: .4s ease-in-out;
+}
+
+.bolger h4 {
+    font-size: 14px;
+    color:  rgb(0, 203, 151);
+    text-align: center;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.bolger h1 {
+    font-size: 19px;
+    color:  rgb(33, 37, 41);
+    text-align: center;
+    font-weight: 700;
+    line-height: 30.4px;
+}
+
+.bolger span {
+    display: block;
+    margin-top: 30px;
+    font-size: 14px;
+    color:  rgb(170, 170, 170);
+    text-align: center;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+.bolger p {
+    font-size: 15px;
+    color:  rgb(136, 136, 136);
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 5px;
+}
+
+.Latest-topics {
+    width: 100%;
+    height: auto;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16.8px;
+    background-color: #1c1c1c;
+    padding: 15px;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.topic {
+    overflow: hidden;
+    width: 100%;
+    border-radius: 8px;
+    margin-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.topic img {
+    float: right;
+    width: 30%;
+}
+
+.topic h1 {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgb(51, 51, 51);
+    padding: 10px;
+    display: inline-block;
+}
+
+.topic span {
+    font-size: 11.2px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    padding: 10px;
+    display: inline-block;
+}
+
+.topic small {
+    font-size: 11.2px;
+    font-weight: 400;
+    color: rgb(119, 119, 119);
+    padding: 10px;
+    float: left;
+}
+
+@media screen and (min-width:100px) and (max-width:992px) {
+    .blog {
+        width: 90%;
+        flex-direction: column;
+        margin-bottom: 150%;
+    }
+    .blog-content {
+        width: 100%;
+    }
+    .new-content {
+        width: 100%;
+        margin-top: 700%;
+    }
+    .bolger {
+        width: 100%;
+    }
+}

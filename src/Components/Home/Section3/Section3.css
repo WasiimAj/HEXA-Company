@@ -1,0 +1,72 @@
+.section3 {
+    width: 100%;
+    height: auto;
+    background-color: #00ca9d;
+    position: absolute;
+    left: 0%;
+    right: 0;
+    top: 170%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.show {
+    width: 30%;
+    height: auto;
+    margin: 1% ;
+    overflow: hidden;
+}
+
+.icons {
+    float: right;
+    width: 15%;
+    margin: 1%;
+    display: block;
+}
+
+.title {
+    font-weight: 700;
+    color:#fff;
+    font-size: 18px;
+    padding:10px;
+}
+
+.text-content {
+    float: right;
+    width: 300px;
+    padding:10px;
+    line-height: 24px;
+    color:#fff;
+    font-size: 15px;
+}
+
+@media screen and (min-width:100px) and (max-width:600px) {
+    .show {
+        width: 100%;
+        text-align: center;
+    }
+    .icons {
+        display: block;
+        width: 15%;
+        margin: auto;
+        float: none;
+    }
+    .title {
+        width: 100%;
+    }
+    
+    .text-content {
+        width: 80%;
+        display: block;
+        float: none;
+        margin: auto;
+        text-align: center;
+    }
+    .section3 {
+        position: inherit;
+        margin-top: 10%;
+        margin-bottom: 3%;
+    }
+}

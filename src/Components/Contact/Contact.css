@@ -1,0 +1,141 @@
+.contact-info {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+.contact-info h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(35, 35, 35);
+    text-align: center;
+    padding: 15px;
+}
+
+.conttact-information {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.information {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.information h1 {
+    background-color: #1c1c1c;
+    text-align: center;
+    display: block;
+    margin: auto;
+    align-content: center;
+    padding: 25px 15px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+} 
+
+.information p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.8px;
+    color: rgb(35, 35, 35);
+    padding: 10px;
+}
+
+.information small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(111, 111, 111);
+    padding: 10px;
+}
+
+.contact-inputs {
+    width: 100%;
+    margin-top: 5%;
+    height: auto;
+    background-color: #2f2f2f;
+    overflow: hidden;
+}
+
+.contact-inputs img {
+    width: 50%;
+    float: right;
+}
+
+.contact-inputs > div > p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: rgb(147, 147, 147);
+    padding: 20px;
+    text-align: center;
+}
+
+.contact-inputs > div > h1 {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 21.6px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    text-align: center;
+}
+
+.contact-inputs > div > input {
+    width: 22%;
+    margin: 1%;
+    background: none;
+    padding: 15px;
+    outline: none;
+    color: rgb(147, 147, 147);
+    border: 1px solid rgb(111, 111, 111);
+    transition: .3s ease-in-out;
+}
+
+.contact-inputs > div > input:focus {
+    border: 1px solid #00ca9d;
+    transition: .3s ease-in-out;
+}
+
+.large-input {
+    width: 46% !important;
+    height: 150px;
+}
+
+.contact-inputs > div > button {
+    color: #fff;
+    background-color: #00ca9d;
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding: 10px 30px;
+    transition: .3s ease-in-out;
+    display: block;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.contact-inputs > div > button:hover {
+    transition: .3s ease-in-out;
+    background:none;
+    color: #00ca9d;
+    border: 1px solid #00ca9d;
+}
+
+@media screen and (min-width:100px) and (max-width:992px) {
+    .conttact-information {
+        flex-direction: column;
+    }
+    .contact-inputs img {
+        width: 100%;
+    }
+    .contact-inputs > div > input {
+        width: 48%;
+    }
+    .large-input {
+        width: 98% !important;
+    }
+}

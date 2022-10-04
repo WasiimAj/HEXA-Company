@@ -1,0 +1,42 @@
+.section6 {
+    background-image: url('https://png.pngtree.com/element_our/20190529/ourlarge/pngtree-simple-dot-background-image_1206058.jpg');
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.company-state {
+    margin: 1%;
+    padding: 15px;
+    text-align: center;
+    width: calc(4/98%);
+}
+
+.company-state p {
+    font-weight: 600;
+    font-size: 25px;
+    color: #05cba4;
+}
+
+.company-state h3 {
+    color: #6f6f6f;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.company-state h1 {
+    color: #6f6f6f;
+    font-size:50px;
+    font-weight: 700;
+}
+
+@media screen and (min-width:100px) and (max-width:850px) {
+    .section6 {
+        flex-wrap: wrap;
+    }
+    .company-state {
+        display: inline-block;
+    }
+}
